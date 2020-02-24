@@ -1,0 +1,105 @@
+.carousel-indicators li{
+    background-color: darkgray;
+    border:none;
+    border-radius: 5px;
+    height:8px;
+    width:10px;
+}
+.carousel-indicators li.active {
+    width: 30px;
+    height: 8px;
+    border:none;
+    border-radius: 5px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%)
+}
+
+.container{
+    margin-bottom: 30px;
+
+
+}
+
+
+.d-flex{
+    padding-bottom: 50px;
+}
+
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.carousel-item{
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+
+
+.buy-now-button{
+    background-color: rgb(31, 28, 28);
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+#see-all{
+    color:orange;
+    font-weight: 700;
+}
+
+.content-title {
+    font-size: 35px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 70px;
+    padding-bottom: 18px;
+}
+
+.content-title:after{
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 135px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cat-img{
+    width: 225px;
+    padding: 45px;
+    box-shadow: 0px 0px 20px rgba(212, 211, 211, 0.637);
+}
+
+.cat-img-btm{
+    margin-bottom: 35px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: #FFF;
+    border-top: none;
+}
+
+
+
+
+footer{
+    text-align: center;
+}
